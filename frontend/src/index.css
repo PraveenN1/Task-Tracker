@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html{
+  @apply min-h-screen 
+}
+
+body{
+  @apply bg-gray-100 dark:bg-gray-800 m-2 p-2
+}
+
+
+
+
+
