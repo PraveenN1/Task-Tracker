@@ -1,32 +1,75 @@
-📝 Task Tracker Application
-A full-stack Task Tracker application built with React (frontend) and Node.js + Express (backend).
+# Task Tracker 📝
 
-📁 Project Structure
-tasktracker/backend
-tasktracker/frontend   
+A full-stack Task Tracker application with user authentication, project and task management, built using **React** for the frontend and **Node.js/Express** with **MongoDB** for the backend.
 
-🚀 Installation & Setup
-1. Clone the repository
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Tailwind CSS
+- Axios
+- React Router
+- React Select
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JSON Web Tokens (JWT)
+- dotenv
+- cors
+
+---
+
+## 📁 Folder Structure
+
+TaskTracker/ ├── frontend/ # React App ├── backend/ # Express API └── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repo
+```bash
 git clone https://github.com/PraveenN1/Task-Tracker.git
 cd Task-Tracker
-2. Setup Backend
+```
+Backend Setup
+```bash
 cd backend
 npm install
-Create a .env file in the backend folder with your environment variables PORT, MONGO_URI, JWT_SECRET_KEY
-Start the backend server:
-npm run dev     # if using nodemon
-# or
-npm start
-3. Setup Frontend
-cd ../frontend
+```
+Create a .env file add 
+- MONGO_URI
+- JWT_SECRET_KEY
+  
+```bash
+npm run dev
+```
+Frontend Setup
+```bash
+cd frontend
 npm install
-npm start
-This starts the React development server on http://localhost:3000
+npm run dev
+```
 
-⚙️ Technologies Used
-Frontend: React, Axios, Tailwind
-Backend: Node.js, Express
-Tools: Nodemon, dotenv, Git
-Database: MongoDB, Mongoose
+### Environment Variables
+- Create a .env file inside /backend and 
+- add MONGO_URI=your_mongo_connection_string
+- add JWT_SECRET_KEY=your_jwt_secret
+- PORT=5000 (Optionally)
 
 
+### Features
+- Signup/Login with JWT authentication
+- Country selector with flags
+- Project and Task CRUD
+- Full REST API
+- Token-based user handling
+- Cookie handling with withCredentials
