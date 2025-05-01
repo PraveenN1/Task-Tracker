@@ -25,11 +25,9 @@ A full-stack Task Tracker application with user authentication, project and task
 
 ## 📁 Folder Structure
 
-TaskTracker/ ├── frontend/ # React App ├── backend/ # Express API └── README.md
-
-yaml
-Copy
-Edit
+TaskTracker/ ├── frontend/ # React App 
+TaskTracker/ ├── backend/ # Express API 
+TaskTracker/ └── README.md
 
 ---
 
